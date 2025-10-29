@@ -3,9 +3,9 @@
 This project automates Linux system monitoring by collecting real-time health data such as uptime, CPU load, memory, disk usage, and running service status.  
 It generates a timestamped log file for easy auditing.
 
----https://github.com/vempatisriram6-dev/healthchecktask/blob/main/README.md
 
- Features
+Features
+
 Displays system date and time  
 Shows system uptime  
 Reports CPU load averages  
