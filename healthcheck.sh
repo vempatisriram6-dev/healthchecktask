@@ -38,9 +38,9 @@ echo "Service Status Check:"
 for service in "${SERVICES[@]}"
 do
   if systemctl is-active --quiet "$service"; then
-    echo "$service: ✅ Running"
+    echo "$service:  Running"
   else
-    echo "$service: ❌ Not running"
+    echo "$service:  Not running"
   fi
 done
 
