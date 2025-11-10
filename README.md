@@ -1,10 +1,10 @@
- System Health Check Script (healthcheck.sh)
+                                                 System Health Check Script (healthcheck.sh)
 
 This project automates Linux system monitoring by collecting real-time health data such as uptime, CPU load, memory, disk usage, and running service status.  
 It generates a timestamped log file for easy auditing.
 
 
-Features
+# Features:
 
 Displays system date and time  
 Shows system uptime  
@@ -14,7 +14,7 @@ Lists top 5 memory-consuming processes
 Checks status of essential services (nginx, ssh, docker)  
 Logs everything into a timestamped file (e.g., `healthlog_2025-10-28_12-45-30.txt`)
 
-How to Use
+# How to Use
 
 1️ Give execute permission:
 
@@ -27,13 +27,17 @@ chmod +x healthcheck.sh
 
 
 3️ View the log file:
+
 After running, the script automatically generates a log file in the same folder.
-Example:
+
+# Example:
 
 healthlog_2025-10-28_12-45-30.txt
 
-🧾 Sample Output
+# Sample Output
+
 ==================== SYSTEM HEALTH CHECK ====================
+
 Date and Time: Wed Oct 29 12:48:40 IST 2025
 --------------------------------------------------------------
 System Uptime: up 3 days, 4:23
@@ -54,50 +58,54 @@ Service Status Check:
 nginx ✅ | ssh ✅ | docker ❌
 --------------------------------------------------------------
 Log saved to: healthlog_2025-10-29_12-48-40.txt
+
 ==================== END OF REPORT ===========================
 
- How It Works
+ # How It Works:
 
-The script uses standard Linux commands to gather system metrics:
+I* The script uses standard Linux commands to gather system metrics:
 
-date → shows current date and time
+ *  date → shows current date and time
 
-uptime → shows how long the system has been running
+*  uptime → shows how long the system has been running
 
-free -m → checks memory usage in MB
+* free -m → checks memory usage in MB
 
-df -h → shows disk space usage
+* df -h → shows disk space usage
 
-ps aux --sort=-%mem | head -n 6 → lists top memory-consuming processes
+* ps aux --sort=-%mem | head -n 6 → lists top memory-consuming processes
 
-systemctl is-active → checks if services like nginx, ssh, and docker are running
+* systemctl is-active → checks if services like nginx, ssh, and docker are running
 
-All this data is formatted and saved into a log file with the current date and time.
+* All this data is formatted and saved into a log file with the current date and time.
 
- Example Use Case
+ # Example Use Case:
 
-You can use this script to:
+* You can use this script to:
 
-Monitor server health automatically
+* Monitor server health automatically
 
-Schedule daily checks using cron jobs
+* Schedule daily checks using cron jobs
 
-Keep historical logs for troubleshooting and audits
+* Keep historical logs for troubleshooting and audits
 
-Example cron job (runs every day at 9 AM):
+* Example cron job (runs every day at 9 AM):
 
-0 9 * * * /path/to/healthcheck.sh
+* 0 9 * * * /path/to/healthcheck.sh
 
- Repository Setup
+ # Repository Setup:
 
-To clone and run this project:
+# To clone and run this project:
 
 git clone https://github.com/vempatisriram6-dev/healthcheck.git
+
 cd healthcheck
+
 chmod +x healthcheck.sh
+
 ./healthcheck.sh
 
-👤 Author
+ # Author
 
 Developed by: Vempati Sriram
 
