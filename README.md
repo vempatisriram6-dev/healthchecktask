@@ -102,13 +102,13 @@ I* The script uses standard Linux commands to gather system metrics:
 
 <> To clone and run this project:
 
-git clone https://github.com/vempatisriram6-dev/healthcheck.git
+* git clone https://github.com/vempatisriram6-dev/healthcheck.git
 
-cd healthcheck
+* cd healthcheck
 
-chmod +x healthcheck.sh
+* chmod +x healthcheck.sh
 
-./healthcheck.sh
+* ./healthcheck.sh
 
  # Author
 
