@@ -50,11 +50,16 @@ Disk Usage: 42% used
 --------------------------------------------------------------
 Top 5 Memory-Consuming Processes:
   PID USER      %MEM COMMAND
+
   102 root      2.1  python3
+  
   210 mysql     1.3  mysqld
+  
   305 nginx     0.9  nginx
+  
 --------------------------------------------------------------
 Service Status Check:
+
 nginx ✅ | ssh ✅ | docker ❌
 --------------------------------------------------------------
 Log saved to: healthlog_2025-10-29_12-48-40.txt
@@ -95,7 +100,7 @@ I* The script uses standard Linux commands to gather system metrics:
 
  # Repository Setup:
 
-# To clone and run this project:
+<> To clone and run this project:
 
 git clone https://github.com/vempatisriram6-dev/healthcheck.git
 
