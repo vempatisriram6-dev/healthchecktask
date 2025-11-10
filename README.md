@@ -1,4 +1,4 @@
-                                                 System Health Check Script (healthcheck.sh)
+                                              System Health Check Script (healthcheck.sh)
 
 This project automates Linux system monitoring by collecting real-time health data such as uptime, CPU load, memory, disk usage, and running service status.  
 It generates a timestamped log file for easy auditing.
@@ -115,6 +115,7 @@ chmod +x healthcheck.sh
 Developed by: Vempati Sriram
 
 📧 GitHub: @vempatisriram6-dev
+
 
 
 
