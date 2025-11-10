@@ -60,7 +60,7 @@ Top 5 Memory-Consuming Processes:
 --------------------------------------------------------------
 Service Status Check:
 
-nginx ✅ | ssh ✅ | docker ❌
+nginx  | ssh  | docker 
 --------------------------------------------------------------
 Log saved to: healthlog_2025-10-29_12-48-40.txt
 
@@ -114,7 +114,7 @@ I* The script uses standard Linux commands to gather system metrics:
 
 Developed by: Vempati Sriram
 
-📧 GitHub: @vempatisriram6-dev
+ GitHub: @vempatisriram6-dev
 
 
 
